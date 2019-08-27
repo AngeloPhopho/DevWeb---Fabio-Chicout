@@ -1,0 +1,30 @@
+
+.exerUm{
+    
+    font-family: "verdana", Sans-serif; 
+    font-size: 12px;
+    color: red;
+    text-align: center;
+    line-height: 2;
+    
+}
+
+
+/*
+1. Construir uma página HTML que contenha o quadro abaixo, de modo que este
+esteja centralizado horizontalmente na tela do navegador, sem a utilização do
+elemento de marcação HTML tabela.
+
+Faculdade de Tecnologia Ibratec
+Curso: Análise e Desenvolvimento de Sistemas
+Disciplina: Programação Web
+
+Sobre a estilização do texto, deverão ser observados os seguintes aspectos, a
+serem configurados com o uso de propriedades CSS:
+xxxxx ○ Tipo de fonte: Verdana;
+xxxxx ○ Tamanho de fonte: 12 pixels;
+xxxxx ○ Alinhamento: centralizado horizontalmente;
+xxxxx ○ Espaçamento entre linhas: duplo;
+xxxxx ○ Cor de texto: Vermelho,
+
+*/

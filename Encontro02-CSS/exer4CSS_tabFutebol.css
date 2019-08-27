@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: Arial;
+}
+
+table {
+    margin: 0 auto;
+    border: solid 1px #dddddd;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.azulMarinho {
+    color: #003366;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.azulCeleste {
+    color: #1398BE;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.laranja {
+    color: #DE9800;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cinza {
+    color: #cccccc;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.vermelho {
+    color: #C91B04;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 13px;
+    color: #999999;
+    font-weight: bold;
+    text-align: center;
+}
+
+td:nth-child(2n+1) {
+    background-color: #F7F7F7;
+}
+
+.time {
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+    text-align: left;
+}
+
+.ponto {
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dponto {
+    font-size: 14px;
+    color: #666666;
+    font-weight: none;
+    text-align: center;
+}
+
+.legenda {
+    font-size: 10px;
+    color: #8F8F8F;
+    font-weight: none;
+    text-align: left;
+}
+
+.legendasigla {
+    font-size: 10px;
+    color: #555555;
+    font-weight: bold;
+    text-align: left;
+}
+
+.legendasignificado {
+    font-size: 10px;
+    color: #555555;
+    font-weight: none;
+    text-align: left;
+}
+
+.tamanho {
+    width: 30px;
+    text-align: center;
+}
+
+.dam {
+    background-color: #003366;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.dac {
+    background-color: #1398BE;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.dl {
+    background-color: #DE9800;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.dv {
+    background-color: #C91B04;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 2px;
+}

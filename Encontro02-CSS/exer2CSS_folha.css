@@ -1,0 +1,13 @@
+
+h1{
+    font-family: Tahoma, Verdana, Arial, sans-serif; 
+    line-height: 2;
+}
+
+body{
+    font-size: 10pt;
+}
+
+h1, h2, h3{
+    color: red;
+}
