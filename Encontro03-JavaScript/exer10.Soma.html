@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exer10.Soma</title>
+</head>
+<body>
+        <script>
+            function calculo() {
+                var a=parseFloat(document.fr.txtA.value);
+                var b=parseFloat(document.fr.txtB.value);
+                var s=(a+b);
+                document.getElementById("resposta").
+                innerHTML="Resultado é "+s;
+            }
+    </script>
+    
+    <form name="fr">
+        <p> Informe o 1º valor:
+            <p> 
+                <input type="text"  value="0" name="txtA">
+            </p>
+            <p> Informe o 1º valor:
+                <p> <input type="text"  value="0" name="txtB">
+                </p>
+                <p> <input type="button" name="btncalcular" value="Calcular" onclick="calculo()">
+                </p>
+            </form>
+            <p id="resposta" >Resposta</p>
+        </body>
+        
+        </html>

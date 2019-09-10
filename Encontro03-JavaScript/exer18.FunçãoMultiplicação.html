@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exer18.FunçãoMultiplicação</title>
+</head>
+<body>
+    
+    <h2>Função Multiplicação.</h2>
+    
+    <script>
+        function calculo() {
+            var valora=parseFloat(document.fr.txtA.value);
+            var valorb=parseFloat(document.fr.txtB.value);
+            var valors=(valora*valorb);
+            if (valora == 0 | valorb==0 ){
+                alert("Um dos valores é igual a zero")
+            }else{
+                document.getElementById("resposta").
+                innerHTML="Resultado é "+valors;
+            }
+        }
+    </script>
+    
+    <form name="fr">
+        <p> Informe o 1º valor:
+            <p> 
+                <input type="text"  value="0" name="txtA">
+            </p>
+            <p> Informe o 1º valor:
+                <p> <input type="text"  value="0" name="txtB">
+                </p>
+                <p> <input type="button" name="btncalcular" value="Calcular" onclick="calculo()">
+                </p>
+            </form>
+            <p id="resposta" >Resposta</p>
+        </body>
+        
+        
+        
+    </body>
+    
+    </html>
+    
+    <!--
+        Crie uma função que recebe 2 parâmetros e retorna a soma deles, porem
+        caso seja passado um parâmetro vazio ela retorne zero.
+        
+        
+    -->

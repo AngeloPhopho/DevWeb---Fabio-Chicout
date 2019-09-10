@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exer20.FunçãoIdade</title>
+</head>
+<body>
+    
+    <h2>Informe o ano de nascimento.</h2>
+    
+    <script>
+        function calculo() {
+            var valora=parseFloat(document.fr.txtA.value);
+            var valorb=parseFloat(document.fr.txtB.value);
+            var valors=(valorb-valora);
+            innerHTML="Resultado é "+valors;
+            
+            if (valors <18){
+                alert("Você é menor de idade")
+            }else{
+                alert("Você é maior de idade.")
+                document.getElementById("resposta")
+            }
+        }
+    </script>
+    
+    <form name="fr">
+        <p> Informe o ano de nascimento:</p>
+        <p><input type="text"  value="0" name="txtA"></p>
+        <p> <input type="text"  value="2019" name="txtB"></p>
+        <p> <input type="button" name="btncalcular" value="Calcular" onclick="calculo()"></p>
+    </form>
+    <p id="resposta" >Resposta</p>
+</body>
+
+</html>
+
+    <!--
+    <form name="fr">
+        <p> Informe o ano de nascimento:</p>
+        <p><input type="text"  value="0" name="txtA"></p>
+        <p> Informe o 1º valor:</p>
+        <p> <input type="text"  value="0" name="txtB"></p>
+        <p> <input type="button" name="btncalcular" value="Calcular" onclick="calculo()"></p>
+    </form>
+    <p id="resposta" >Resposta</p>
+</bo    
+        
+    -->

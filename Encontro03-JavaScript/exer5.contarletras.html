@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contar Letras</title>
+</head> 
+<body>
+    Palavra: <input onkeyup="contar(this)" type="text" />
+    Qtd: <input id="qtd" type="text" readonly />
+    
+    <span id="qtd_span"></span>
+    
+    <script>
+        
+        function contar(el) {
+            var qtd = document.getElementById('qtd');
+            var caracteres = el.value.length;
+            qtd_total = qtd.value = parseFloat(caracteres); 
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exer4.NomeCompleto</title>
+</head>
+<body>
+    <label>Informe o nome na janela. ---->></label>
+    <input type="text" name="Nome Completo" id="txtNomeCompleto"/>
+    <input type="button" value="Exibir Nome" id="btnExibir"/>
+    
+    <script>
+        document.getElementById("btnExibir").addEventListener("click", function(){
+            const nomeCompleto = document.getElementById("txtNomeCompleto").value;
+            alert('Nome informado é --> '+ nomeCompleto);
+        }); 
+    </script>
+    
+</body>
+</html>
